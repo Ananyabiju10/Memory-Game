@@ -14,18 +14,18 @@ document.addEventListener("DOMContentLoaded", () => {
     let firstCardValue, secondCardValue;
 
     const item = [
-        { name: "butterfly", image: "butterfly.png" },
-        { name: "cat", image: "cat.png" },
-        { name: "dolphin", image: "dolphin.png" },
-        { name: "elephant", image: "elephant.png" },
-        { name: "flamingo", image: "flamingo.png" },
-        { name: "linux", image: "linux.png" },
-        { name: "lion", image: "lion.png" },
-        { name: "octopus", image: "octopus.png" },
-        { name: "seahorse", image: "seahorse.png" },
-        { name: "squirrel", image: "squirrel.png" },
-        { name: "starfish", image: "starfish.png" },
-        { name: "chameleon", image: "chameleon.png" },
+        { name: "butterfly", image: "images/butterfly.png" },
+        { name: "cat", image: "images/cat.png" },
+        { name: "dolphin", image: "images/dolphin.png" },
+        { name: "elephant", image: "images/elephant.png" },
+        { name: "flamingo", image: "images/flamingo.png" },
+        { name: "linux", image: "images/linux.png" },
+        { name: "lion", image: "images/lion.png" },
+        { name: "octopus", image: "images/octopus.png" },
+        { name: "seahorse", image: "images/seahorse.png" },
+        { name: "squirrel", image: "images/squirrel.png" },
+        { name: "starfish", image: "images/starfish.png" },
+        { name: "chameleon", image: "images/chameleon.png" },
     ];
 
     let seconds = 0, minutes = 0;
@@ -151,3 +151,4 @@ document.addEventListener("DOMContentLoaded", () => {
         matrixGenerator(cardValues);
     };
 });
+
